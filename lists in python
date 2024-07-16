@@ -1,4 +1,10 @@
 #lets create a list
-cars = ["BMW", "Civic", "Toyota", "Tesla"]
+
+#list items are ordered, changeable and alows duplication
+#List items can be of any data type:
+
+cars = ["BMW", "Civic", "Toyota", "Tesla", "BMW", 5]
 #print the list
-print(cars)
+
+#we can check length of list(how many items in list) by len() function
+print(len(cars))
