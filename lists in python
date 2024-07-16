@@ -1,0 +1,4 @@
+#lets create a list
+cars = ["BMW", "Civic", "Toyota", "Tesla"]
+#print the list
+print(cars)
