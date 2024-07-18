@@ -13,7 +13,7 @@
 
 # print a specific item from list by indexing
 
-fruits = ["Apple", "Banana", "Mango", "Orange", 500, 199]
+# fruits = ["Apple", "Banana", "Mango", "Orange", 500, 199]
 #print([3])
 #range where to start and where to end
 #print(fruits[3:6])
@@ -21,5 +21,62 @@ fruits = ["Apple", "Banana", "Mango", "Orange", 500, 199]
 
 #check if specific item exist in list
 
-if 500 in fruits:
-    print("Yes, this number is persent!")
+# if 500 in fruits:
+#     print("Yes, this number is persent!")
+
+#change list items, this method will delete that index number existig value
+
+# fruits[1] = "Watermelon"
+# print(fruits)
+
+#change range of list items, this method will delete that index number existig value
+
+# fruits[1:3] = "Coconut", "Strawberry"
+# print(fruits)
+
+#add items without deleting existing values by instert() function
+
+# fruits.insert(3, "Watermelon")
+# print(fruits)
+
+#can add items through append() method, it will add at end of the list
+
+# fruits.append(1000)
+# print(fruits)
+
+#we can extend current list by adding new list in it, this method will new list at the end of current list
+
+# newfruits = ["Watermelon", "Coconut", 5000]
+#you can even add tuple, sets, disctionaries to list
+# newfruitsset = ("Watermelon", "Coconut", 5000)
+# fruits.extend(newfruitsset)
+
+# print(fruits)
+
+#remove items from list have different methods.
+#first method to remove specific item from list by remove() method
+
+#if dupplicate items in list, it will remove first occurance
+# fruits = ["Apple", "Banana", "Mango", "Orange", "Apple", 500, 199]
+# fruits.remove("Apple")
+# print(fruits)
+
+#second method to remove item by specific index by pop() method
+
+fruits = ["Apple", "Banana", "Mango", "Orange", "Apple", 500, 199]
+# fruits.pop(2)
+#empty pop will remove last item
+# fruits.pop()
+# print(fruits)
+
+#third method is by del keyword
+
+# del fruits[2]
+#del can delete complete list. It will show a error.
+# del fruits
+# print(fruits)
+
+#fourth method will just clear the list, list will remian but content will not
+
+fruits.clear()
+print(fruits)
