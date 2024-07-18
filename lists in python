@@ -1,10 +1,23 @@
-#lets create a list
+# #lets create a list
 
-#list items are ordered, changeable and alows duplication
-#List items can be of any data type:
+# #list items are ordered, changeable and alows duplication
+# #List items can be of any data type:
 
-cars = ["BMW", "Civic", "Toyota", "Tesla", "BMW", 5]
-#print the list
+# cars = ["BMW", "Civic", "Toyota", "Tesla", "BMW", 5]
+# #print the list
 
-#we can check length of list(how many items in list) by len() function
-print(len(cars))
+# #we can check length of list(how many items in list) by len() function
+# print(len(cars))
+
+# print a specific item from list by indexing
+
+fruits = ["Apple", "Banana", "Mango", "Orange", 500, 199]
+#print([3])
+#range where to start and where to end
+#print(fruits[3:6])
+#starting index will be included but ending will not include
+
+#check if specific item exist in list
+
+if "Mango" in fruits:
+    print("Yes, Mango is persent!")
