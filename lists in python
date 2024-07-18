@@ -21,5 +21,5 @@ fruits = ["Apple", "Banana", "Mango", "Orange", 500, 199]
 
 #check if specific item exist in list
 
-if "Mango" in fruits:
-    print("Yes, Mango is persent!")
+if 500 in fruits:
+    print("Yes, this number is persent!")
