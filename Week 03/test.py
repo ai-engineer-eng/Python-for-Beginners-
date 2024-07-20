@@ -1,2 +1,0 @@
-#testin this
-print("hello")
