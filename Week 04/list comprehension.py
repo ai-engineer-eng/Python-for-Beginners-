@@ -11,7 +11,7 @@ newlist = []
 #         newlist.append(x)
 # print(newlist)
 
-#now with list comprehension method
+#now with list comprehension method #shorter syntax
 
 newlist = [x for x in fruits if "a" in x]
 print(newlist)
