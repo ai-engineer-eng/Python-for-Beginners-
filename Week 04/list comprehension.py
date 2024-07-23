@@ -13,5 +13,11 @@ newlist = []
 
 #now with list comprehension method #shorter syntax
 
-newlist = [x for x in fruits if "a" in x]
+# newlist = [x for x in fruits if "a" in x]
+# print(newlist)
+
+#Condition
+#The condition is like a filter that only accepts the items that valuate to True.
+
+newlist = [x for x in fruits if x!="cherry"]
 print(newlist)
