@@ -8,5 +8,6 @@
 #sort the list numerically
 
 numbers = [100, 40, 38, 98, 23, 5]
-numbers.sort()
-print(numbers)
+# numbers.sort()
+# print(numbers)
+
