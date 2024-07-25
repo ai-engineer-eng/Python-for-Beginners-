@@ -3,5 +3,9 @@
 #There are ways to make a copy, one way is to use the built-in List method copy().
 
 fruits = ["Apple", "Banana", "Mango", "Cherry"]
-fruitscopy = fruits.copy()
+# fruitscopy = fruits.copy()
+# print(fruitscopy)
+
+#Another way to make a copy is to use the built-in method list().
+fruitscopy = list(fruits)
 print(fruitscopy)
