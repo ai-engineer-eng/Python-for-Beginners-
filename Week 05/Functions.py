@@ -41,8 +41,22 @@
 # print(sum(2, 3, 4, 6, 7))               #it's output will be in the form of tuple
 
 
-def student_name(*students):
-    for student in students:
+# def student_name(*students):
+#     for student in students:
         
-        print(f"hello {student}")
-student_name("Shafqat", "Abid", "Sajid")
+#         print(f"hello {student}")
+# student_name("Shafqat", "Abid", "Sajid")
+
+
+                                #Passing a List as an Argument
+#You can send any data types of argument to a function (string, number, list, 
+# dictionary etc.), and it will be treated as the same data type inside the function.
+
+# def fruits_list(food):
+#     for x in food:
+#         print(x)
+# fruits = ["Aplle", "banana", "mango"]
+# fruits_list(fruits)
+
+
+                            
