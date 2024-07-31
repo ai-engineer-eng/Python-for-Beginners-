@@ -31,11 +31,18 @@
 # add a * before the parameter name in the function definition.
 # This way the function will receive a tuple of arguments, and can access the items accordingly:
 
-def sum(*numbers):
-    total = 1
-    for number in numbers:              #used for lop to iterate tuple
+# def sum(*numbers):
+#     total = 1
+#     for number in numbers:              #used for lop to iterate tuple
 
-        total = total + number
-    return total
+#         total = total + number
+#     return total
 
-print(sum(2, 3, 4, 6, 7))               #it's output will be in the form of tuple
+# print(sum(2, 3, 4, 6, 7))               #it's output will be in the form of tuple
+
+
+def student_name(*students):
+    for student in students:
+        
+        print(f"hello {student}")
+student_name("Shafqat", "Abid", "Sajid")
