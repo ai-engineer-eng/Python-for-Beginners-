@@ -41,9 +41,33 @@
 
                                 #convert usd to pkr (01 - 08 - 2024)
 
-def usd_to_pkr(usd):
-    conversion = usd*279
-    print(usd, "USD", "=", conversion, "PKR")
+# def usd_to_pkr(usd):
+#     conversion = usd*279
+#     print(usd, "USD", "=", conversion, "PKR")
 
 
-usd_to_pkr(400)
+# usd_to_pkr(400)
+
+#......................................................................................................
+
+                                #odd/even string
+
+# def odd_even(num):
+#     if num % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+
+# odd_even(456453)
+
+#......................................................................................................
+
+                                #Recursion Function
+
+def recur(n):
+    if n == 0:
+        return
+    print(n)
+    recur(n-1)
+
+recur(5)
