@@ -64,10 +64,22 @@
 
                                 #Recursion Function
 
-def recur(n):
-    if n == 0:
-        return
-    print(n)
-    recur(n-1)
+# def recur(n):
+#     if n == 0:          #this is "Basic Case" in recursion function, as like "Break" in if statement
+#         return
+#     print(n)
+#     recur(n-1)          #calling function in function itself with argument
 
-recur(5)
+# recur(5)
+
+#......................................................................................................
+
+                                #Recursion with factorial
+
+def fact(n):
+    if (n == 1) or (n == 0):
+        return 1
+    return n*fact(n-1)
+
+
+print(fact(5))
