@@ -18,3 +18,16 @@
 # len_ofList(nums)
 
 #......................................................................................................
+
+
+
+def elements(line):
+    
+    print(line[0], end=" ")
+    print(line[1], end=" ")
+    print(line[2], end=" ")
+    print(line[3], end=" ")
+    print(line[4], end=" ")
+    print(line[5], end=" ")
+nums = [1, 4, 56,7,4,3]
+elements(nums)
