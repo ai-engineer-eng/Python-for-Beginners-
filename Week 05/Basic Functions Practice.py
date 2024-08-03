@@ -76,10 +76,30 @@
 
                                 #Recursion with factorial
 
-def fact(n):
-    if (n == 1) or (n == 0):
-        return 1
-    return n*fact(n-1)
+# def fact(n):
+#     if (n == 1) or (n == 0):
+#         return 1
+#     return n*fact(n-1)
 
 
-print(fact(5))
+# print(fact(5))
+
+#......................................................................................................
+
+                                #recursion function to calculate sum of first natural numbers
+
+# def sum_cal(n):
+#     if n == 1:
+#         return 1
+#     return n+sum_cal(n-1)
+
+# print(sum_cal(10))
+
+#......................................................................................................
+
+                                #recursive function to print all element of list
+
+def list_item(list, index):
+    list = [1, 2, 3, 4]
+    return list_item()
+list_item()
